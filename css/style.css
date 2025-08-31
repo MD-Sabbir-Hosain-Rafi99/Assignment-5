@@ -1,0 +1,115 @@
+/* All Global Css Start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All Global Css End */
+
+.headerParent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #006747;
+    padding-right: 862px;
+    line-height: 25px;
+    font-family: "Hind Madurai", sans-serif;
+}
+
+.navbarContent {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarRight{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heartParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: #c1eecb;
+    border-radius: 15px;
+}
+
+.heartParent img {
+    height: 20px;
+}
+
+.heartParent p{
+    font-weight: bold;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: #c1eecb;
+    border-radius: 15px;
+}
+
+.coin img {
+    height: 20px;
+}
+.coin p {
+    font-weight: bold;
+}
+
+.btn{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: #21b341;
+    border-radius: 15px;
+}
