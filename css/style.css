@@ -27,7 +27,7 @@ p {
 }
 
 .container {
-    width: 1420px;
+    width: 1820px;
     margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ p {
 .headerParent {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
 }
 
 .logo img {
@@ -55,7 +56,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     color: #006747;
-    padding-right: 862px;
+    padding-right: 882px;
     line-height: 25px;
     font-family: "Hind Madurai", sans-serif;
 }
@@ -125,28 +126,133 @@ p {
 /* Banner Section Start */
 .bannerParent {
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     background: linear-gradient(90deg, #013223 0%, #006747 50%, #013223 100%);
 }
-.bannerParent img{
+
+.bannerParent img {
     height: 100px;
     margin: 0 auto;
 }
 
-.bannerContent{
+.bannerContent {
     color: white;
     text-align: center;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-family: "Hind Madurai", sans-serif;
     font-size: 35px;
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bannerContent p{
+
+.bannerContent p {
     font-family: "Hind Madurai", sans-serif;
     font-size: 20px;
 
 }
+
 /* Banner Section End */
+
+
+body {
+    background-color: #F5FFF6;
+}
+
+
+
+.card {
+    padding: 40px;
+}
+
+.cardIcon {
+    height: 40px;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 5px 6px 10px 6px;
+    background-color: #FFE3E2;
+}
+
+.iconsParent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardsaorbojonin {
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(204, 203, 203);
+    border-radius: 10px;
+}
+
+.cardsaorbojonin p {
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+}
+
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nationalEmergency {
+    padding-bottom: 20px;
+}
+
+.card-title2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.btnfirst {
+    width: 145px;
+    margin-top: 20px;
+}
+
+.btnsecond {
+    width: 145px;
+    margin-top: 20px;
+}
+
+.btnfirst {
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+.leftsideCards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rightsideCards {
+    width: 900px;
+    height: 1060px;
+    background-color: white;
+
+}
+
+
+.cardsParent {
+    display: flex;
+    align-items: start;
+    margin-top: 50px;
+}
+
+.rightSideCardFunction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+span {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 20px;
+}
