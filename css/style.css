@@ -27,12 +27,14 @@ p {
 }
 
 .container {
-    width: 1320px;
+    width: 1420px;
     margin: 0 auto;
 }
 
 /* All Global Css End */
 
+
+/* Header Section Start */
 .headerParent {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -64,11 +66,13 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-.navbarRight{
+
+.navbarRight {
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
 .heartParent {
     display: flex;
     align-items: center;
@@ -84,7 +88,7 @@ p {
     height: 20px;
 }
 
-.heartParent p{
+.heartParent p {
     font-weight: bold;
 }
 
@@ -102,14 +106,47 @@ p {
 .coin img {
     height: 20px;
 }
+
 .coin p {
     font-weight: bold;
 }
 
-.btn{
+.btn {
     height: 40px;
     width: 90px;
     color: white;
     background-color: #21b341;
     border-radius: 15px;
 }
+
+/* Header Section End */
+
+
+/* Banner Section Start */
+.bannerParent {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: linear-gradient(90deg, #013223 0%, #006747 50%, #013223 100%);
+}
+.bannerParent img{
+    height: 100px;
+    margin: 0 auto;
+}
+
+.bannerContent{
+    color: white;
+    text-align: center;
+}
+.bannerContent h1{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bannerContent p{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 20px;
+
+}
+/* Banner Section End */
